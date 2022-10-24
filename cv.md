@@ -17,6 +17,12 @@
 - Node
 - MongoDB
 - MySQL
+- Firestore
+- RTBD
+- Cloud Function
+- Firebase Authentication
+- Firebase Storage
+- Firebase Hosting
 
 ### Code examples 
 - https://github.com/noelmiranda?tab=repositories
