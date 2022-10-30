@@ -1,0 +1,102 @@
+html,
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+  
+}
+body {
+    background-color: #28231d;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-bottom: .7vh;
+}
+li {
+    list-style: circle;
+    margin-left: 5%;
+}
+
+.container {
+    margin: 1% 10%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .5vw;
+ }
+
+.contact-profile {
+  display: grid;
+  grid-row: repeat(6, 1fr);
+  gap: 1.5vh;
+  background-color: #48aaad;
+  color: #fff;
+  padding: 2vh 5vh;
+}
+
+.picture-contact {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 5%;
+}
+
+.picture  {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+   
+}
+
+.picture img {
+    margin-top: -50px;
+    width: 100%;
+    height: auto;
+}
+
+.contact-information {
+ margin: 5% 15%;
+ }
+
+ .contact-information h3 {
+    font-size: 18px;
+ }
+ .contact-information li {
+    font-size: 1rem;
+ }
+
+.education-experience {
+  display: grid;
+  grid-row: repeat(5, 1fr);
+  gap: 1.5vh;
+  background-color: #fff;
+  padding: 2vh 5vh;
+}
+
+.full-name {
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    
+}
+
+.full-name h1 {
+    font-size: 2rem;
+}
+
+.website-linkedin li {
+    list-style: disc;
+}
+
+.important-place {
+    font-weight: bold;
+}
+
+
+
