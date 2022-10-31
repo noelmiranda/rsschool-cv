@@ -1,34 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>CV Noel Miranda</title>
   </head>
   <body>
     <div class="container">
       <main>
         <section class="contact-profile">
-            <h6>Section I</h6>
-            <article class="picture-contact">
-                <div class="picture">
-                    <img src="./image/1638958694743.jpg" alt="Noel_Miranda">
-                </div>
-                <div class="contact-information">
-                    <h3>Address</h3>
-                    <ul>
-                        <li>80-288</li>
-                        <li>Gdańsk - Poland</li>
-                    </ul>
-                    <h3>Contact</h3>
-                    <ul>
-                        <li>+48792674311</li>
-                        <li>noelmiranda19@gmail.com</li>
-                    </ul>
-                </div>
-            </article>
+          <h6>Section I</h6>
+          <h1>Front-end Mentoring Program</h1>
+          <article class="picture-contact">
+            <div class="picture">
+              <img src="./image/1638958694743.jpg" alt="picture_Noel_Miranda" />
+            </div>
+            <div class="contact-information">
+              <h3>Address</h3>
+              <ul>
+                <li>80-288</li>
+                <li>Gdańsk - Poland</li>
+              </ul>
+              <h3>Contact</h3>
+              <ul>
+                <li>+48792674311</li>
+                <li>noelmiranda19@gmail.com</li>
+              </ul>
+            </div>
+          </article>
           <article class="profile">
             <h2>PROFILE</h2>
             <p>
@@ -68,22 +69,30 @@
               <li>MySQL/MongoDB</li>
               <li>Flutter</li>
               <li>Firestore/RTDB</li>
-              <li>Firebase Authentication</li>
               <li>Firebase Cloud Function</li>
               <li>Firebase Hosting</li>
+              <li>
+                Firebase Authentication - Code Example:
+                <pre>
+                <code>exports.welcomeUser = functions.auth.user().onCreate((user) => {
+                        const email = user.email;
+                        return welcomeUser(email);
+                      });</code>
+                </pre>
+              </li>
             </ul>
           </article>
           <article class="languages">
             <h2>LANGUAGES</h2>
             <ul>
-              <li>Spanish</li>
-              <li>English</li>
-              <li>Polish</li>
+              <li>Spanish - Native</li>
+              <li>English - B2</li>
+              <li>Polish - B1</li>
             </ul>
           </article>
         </section>
         <section class="education-experience">
-            <h6>Section II</h6>
+          <h6>Section II</h6>
           <article class="full-name">
             <h2>NOEL MIRANDA</h2>
           </article>
@@ -91,19 +100,15 @@
             <ul>
               <li>
                 <h3>WWW</h3>
-                <p>noelmiranda.dev</p>
+                <p>
+                  <a href="https://noelmiranda.dev" target="_blank"
+                    >noelmiranda.dev</a
+                  >
+                </p>
               </li>
-            </ul>
-            <ul>
               <li>
                 <h3>Linkedin</h3>
                 <p>linkedin.com/in/noel-miranda</p>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <h3>Github</h3>
-                <p>https://github.com/noelmiranda?tab=repositories</p>
               </li>
             </ul>
           </article>
@@ -200,13 +205,12 @@
               >GitHub</a
             >
           </p>
-
           <p>
             <a href="https://rs.school/turkey/" target="_blank"
               ><img
                 src="https://rs.school/images/rs_school-og.png"
                 alt="RS_School"
-            ></a>
+            /></a>
           </p>
           <p>October, 2022</p>
         </div>
